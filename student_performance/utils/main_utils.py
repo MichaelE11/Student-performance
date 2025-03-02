@@ -88,8 +88,3 @@ def drop_Column(df:DataFrame, cols:list)->DataFrame:
     except Exception as e:
         raise student_performanceException(e,sys) from e
     
-
-
-    
-
-
